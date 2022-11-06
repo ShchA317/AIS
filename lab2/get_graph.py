@@ -2,7 +2,7 @@ def get_graph():
     distances = []
     cities = set()
     
-    with open("data.txt", "r") as f:
+    with open("data/data.txt", "r") as f:
         lines = f.readlines()
         for line in lines:
             elements = line.split(" ")
@@ -24,7 +24,7 @@ def get_graph():
 def get_he_graph():
     distance = {}
     
-    with open("data_heuristic", "r") as f:
+    with open("data/data_heuristic.txt", "r") as f:
         lines = f.readlines()
         for line in lines:
             elements = line.split(" ")

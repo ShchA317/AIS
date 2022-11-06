@@ -1,4 +1,4 @@
-from limited_level_dfs import dfs_limit
+from algs.limited_level_dfs import dfs_limit
 from get_graph import get_graph
 
 def dfs_iterative_deep(start, finish, graph):

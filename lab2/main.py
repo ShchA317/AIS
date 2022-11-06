@@ -1,13 +1,13 @@
 from xmlrpc.client import MAXINT
 from get_graph import get_graph, get_he_graph
-import bfs
-import dfs
-import limited_level_bfs
-import limited_level_dfs
-import dfs_iterative_deep
-import bi_directional_search
-import greedy
-import a_star
+import algs.bfs as bfs
+import algs.dfs as dfs
+import algs.limited_level_bfs as limited_level_bfs
+import algs.limited_level_dfs as limited_level_dfs
+import algs.dfs_iterative_deep as dfs_iterative_deep
+import algs.bi_directional_search as bi_directional_search
+import algs.greedy as greedy
+import algs.a_star as a_star
 
 graph = get_graph()
 color = {}
