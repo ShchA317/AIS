@@ -15,7 +15,7 @@ jobs:
       - name: build report
         run: |
               pwd
-              ls
+              ls ..
               ls lab2
               sudo apt update
               sudo apt install pandoc texlive-xetex fonts-cmu
