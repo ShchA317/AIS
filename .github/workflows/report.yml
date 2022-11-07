@@ -1,0 +1,29 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build report
+        run: |
+              sudo apt update
+              sudo apt install pandoc texlive-xetex fonts-cmu
+              pandoc --pdf-engine=xelatex -V mainfont="CMU Serif" -V monofont="CMU Typewriter Text" -V geometry:a4paper -V documentclass=article -o report.pdf lab2/report.md
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v3
+        with:
+          name: report
+          path: report.pdf
+          retention-days: 1
