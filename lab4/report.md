@@ -1,3 +1,8 @@
+# Labarotory work №4
+**student**: Shcherbakov Alexander Valerievich\
+**teacher**: Koroleva Yuliya Aleksandrovna
+
+
 ### Purpose of work
 Study of the hyperparameters of the neural network, understanding impact of different hyperparameters on accuracy.
 
@@ -31,4 +36,6 @@ Make a report including:
 - Each hyperparameter description and its impact on accuracy.
 - Hyperparameters’ values which were used to reach accuracy value 0.95
 - Graphs for these hyperparameters’ values
+
+## Result
 
