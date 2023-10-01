@@ -1,7 +1,11 @@
 # Labarotory work №4
-**student**: Shcherbakov Alexander Valerievich\
-**teacher**: Koroleva Yuliya Aleksandrovna
+**student:** Shcherbakov Alexander Valerievich\
+**teacher:** Koroleva Yuliya Aleksandrovna\
+**variant:** 2 (isu 31219**2**)
 
+|var|part1 func|part2 data|Hyperparameters|
+| --- | --- | --- | --- |
+| 2 | cos(x), X:-9..9, Y:-1..1| CIFAR100 | Learn rate, L1 |
 
 ### Purpose of work
 Study of the hyperparameters of the neural network, understanding impact of different hyperparameters on accuracy.
@@ -39,3 +43,19 @@ Make a report including:
 
 ## Result
 
+plots for parameters
+### Part1
+| Learn rate | L1 |
+|---|---|
+| 0.001 | 0.0005 |
+
+
+### Part2
+
+plots for parameters
+| Learn rate | L1 |
+|---|---|
+| 0.01 | 0.0001 |
+
+![accuracy](1.png)
+![loss](2.png)
