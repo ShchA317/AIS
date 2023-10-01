@@ -49,6 +49,12 @@ plots for parameters
 |---|---|
 | 0.001 | 0.0005 |
 
+accuracy: 0.7300000190734863
+
+![accuracy](part1_accuracy.png)
+![loss](part1_loss.png)
+![graph](graph.png)
+![real_graph](real_graph.png)
 
 ### Part2
 
@@ -56,6 +62,8 @@ plots for parameters
 | Learn rate | L1 |
 |---|---|
 | 0.01 | 0.0001 |
+
+accuracy: 0.91
 
 ![accuracy](1.png)
 ![loss](2.png)
