@@ -36,11 +36,6 @@ There are represented such hyperparameters as
 5) Set hyperparameter value back to one which produced max accuracy
 6) Repeat 2-5 steps for second hyperparameter
 
-Make a report including:
-- Each hyperparameter description and its impact on accuracy.
-- Hyperparameters’ values which were used to reach accuracy value 0.95
-- Graphs for these hyperparameters’ values
-
 ## Result
 
 plots for parameters
