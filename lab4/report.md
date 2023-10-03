@@ -46,10 +46,10 @@ plots for parameters
 
 accuracy: 0.7300000190734863
 
-![accuracy](part1_accuracy.png)
-![loss](part1_loss.png)
-![graph](graph.png)
-![real_graph](real_graph.png)
+![accuracy](images/part1_accuracy.png)
+![loss](images/part1_loss.png)
+![graph](images/graph.png)
+![real_graph](images/real_graph.png)
 
 ### Part2
 
@@ -60,5 +60,5 @@ plots for parameters
 
 accuracy: 0.91
 
-![accuracy](1.png)
-![loss](2.png)
+![accuracy](images/1.png)
+![loss](images/2.png)
